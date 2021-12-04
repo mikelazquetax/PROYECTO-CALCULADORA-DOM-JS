@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="titulo"><h1>Calculadora Navarra</h1></div>
+    <div class="calculadora"
+    <form action="#" name="calculadora" id="calculadora">
+    <p  id="textoPantalla">0</p>
+    <p>
+
+    <input type="button" class="largo" value="C" onclick="borrarPantalla('C')"/>
+    </p>
+    <p>
+    <input type="button" value="7" onclick="numeroPulsado('7')"/>
+    <input type="button" value="8" onclick="numeroPulsado('8')"/>
+    <input type="button" value="9" onclick="numeroPulsado('9')"/>
+    <input type="button" value="/" onclick="dividir('/')"/>
+   
+    </p>
+    <p>
+    <input type="button" value="4" onclick="numeroPulsado('4')" />
+    <input type="button" value="5" onclick="numeroPulsado('5')" />
+    <input type="button" value="6" onclick="numeroPulsado('6')"/>
+    <input type="button" value="*" onclick="multiplicar('*')"/>
+    
+    </p>
+    <p>
+    <input type="button" value="1" onclick="numeroPulsado('1')" />
+    <input type="button" value="2" onclick="numeroPulsado('2')"/>
+    <input type="button" value="3" onclick="numeroPulsado('3')"/>
+    <input type="button" value="-"  onclick="restarNumeros('-')"/>
+    
+    </p>
+    <p>
+    <input type="button" value="0" onclick="numeroPulsado('0')" />
+   
+    <input type="button" value="." onclick="numeroPulsado('.')" />
+    <input type="button" value="+" onclick="sumarNumeros('+')"/>
+    <input type="button" value="=" onclick="calculo('=')"/>
+    </p>
+    </form>
+    </div>
+</body>
+</html>

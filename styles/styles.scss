@@ -1,0 +1,46 @@
+@import "./responsive";
+
+.calculadora {
+  border: 3px red ridge;
+  width: 250px;
+  text-align: center;
+  background-color: black;
+  @include mobile {
+    margin-left: 15%;
+   
+  }
+  margin-left: 40%;
+  /*botones normales: anchura y margen*/
+[type="button"] {
+    width: 35px;
+    padding: 0;
+  }
+/*botones especiales*/
+input.largo {
+    color: red;
+    width: 60px;
+  }
+  
+  /*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla {
+    width: 185px;
+    border: 2px black solid;
+    text-align: right;
+    position: relative;
+    left: 23px;
+    padding: 0px 5px;
+    background-color: white;
+    font-family: "courier new";
+    overflow: hidden;
+  }
+  
+
+}
+
+.titulo h1 {
+  color: blue;
+  text-align: center;
+}
+
+
+
